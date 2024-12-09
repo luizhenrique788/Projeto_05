@@ -1,0 +1,77 @@
+*{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+header{
+    display: flex;
+    background-color: #066CAE;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+    
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.imglogo{
+    width: 45px;
+    height: 45px;
+}
+a{
+    text-decoration: none;
+    
+  }
+li{
+    color: #F6EDD9;
+}
+.imagemprincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff1f;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.247);
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+.imgprincipal{
+    height: 500px;
+    width: 650px;
+    border-radius: 20px;
+    margin: 10px;
+}
+section h1{
+    display: flex;
+    justify-content: center;
+}
+.animereco, .seriereco, .gamesreco{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.spy, .jujutsu, .kimetsu, .peaky, .bad, .vk, .ring, .man, .poke{
+    background-color: #ffffff1f;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.247);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.a, .b, .c, .d, .e, .f, .g, .h, .i{
+    height: 300px;
+    width: 250px;
+}

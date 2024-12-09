@@ -1,0 +1,78 @@
+*{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+header{
+    display: flex;
+    background-color: #066CAE;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+    
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.imglogo{
+    width: 45px;
+    height: 45px;
+}
+a{
+    text-decoration: none;
+    
+  }
+li{
+    color: #F6EDD9;
+}
+section h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.seriereco{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.peaky, .bad, .vk {
+    background-color: #ffffff1f;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.247);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.a, .b, .c{
+    height: 300px;
+    width: 250px;
+}
+.abc{
+    height: 400px;
+    width: 300px;
+}
+.one, .naru, .ball{
+    background-color: #ffffff1f;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.247);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.texto1{
+    font-size: 35px;
+}
